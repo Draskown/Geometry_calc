@@ -2,24 +2,35 @@
 {
     public static class Geometry
     {
+        public static double ComputeArea(params double[] args){
+            if (args.Length == 1){
+                return ComputeCircleArea(args[0]);
+            } else if (args.Length == 3){
+                return ComputeCircleArea(args);
+            } else
+
+            Console.WriteLine("Not implemented yet");
+            return 0.0;
+        }
+
         public static double ComputeCircleArea(double radius)
         {
             double area = Math.PI * radius * radius;
             return area;
         }
 
-       public static double ComputeTriangleArea(double sideA, double sideB, double sideC)
+       public static double ComputeTriangleArea(double[] sides)
         {
-            double hypo = Math.Max(Math.Max(sideA, sideB), sideC);
-            double cat1 = Math.Min(Math.Min(sideA, sideB), sideC);
+            double hypo = Math.Max(Math.Max(sides[0], sides[1]), sides[2]);
+            double cat1 = Math.Min(Math.Min(sides[0], sides[1]), sides[2]);
             double cat2;
             
-            if (cat1 == sideA && hypo == sideB)
-                cat2 = sideC;
-            else if (cat1 == sideB && hypo == sideC){
-                cat2 = sideA;
+            if (cat1 == sides[0] && hypo == sides[1])
+                cat2 = sides[2];
+            else if (cat1 == sides[1] && hypo == sides[2]){
+                cat2 = sides[0];
             } else
-                cat2 = sideB;
+                cat2 = sides[1];
 
             if (cat1 + cat2 <= hypo){
                 Console.WriteLine("Invalid sides!");
