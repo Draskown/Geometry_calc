@@ -1,0 +1,15 @@
+D:\Projects\C#\Geometry\bin\Debug\net6.0\Geometry.exe
+D:\Projects\C#\Geometry\bin\Debug\net6.0\Geometry.deps.json
+D:\Projects\C#\Geometry\bin\Debug\net6.0\Geometry.runtimeconfig.json
+D:\Projects\C#\Geometry\bin\Debug\net6.0\Geometry.dll
+D:\Projects\C#\Geometry\bin\Debug\net6.0\Geometry.pdb
+D:\Projects\C#\Geometry\obj\Debug\net6.0\Geometry.csproj.AssemblyReference.cache
+D:\Projects\C#\Geometry\obj\Debug\net6.0\Geometry.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\C#\Geometry\obj\Debug\net6.0\Geometry.AssemblyInfoInputs.cache
+D:\Projects\C#\Geometry\obj\Debug\net6.0\Geometry.AssemblyInfo.cs
+D:\Projects\C#\Geometry\obj\Debug\net6.0\Geometry.csproj.CoreCompileInputs.cache
+D:\Projects\C#\Geometry\obj\Debug\net6.0\Geometry.dll
+D:\Projects\C#\Geometry\obj\Debug\net6.0\refint\Geometry.dll
+D:\Projects\C#\Geometry\obj\Debug\net6.0\Geometry.pdb
+D:\Projects\C#\Geometry\obj\Debug\net6.0\Geometry.genruntimeconfig.cache
+D:\Projects\C#\Geometry\obj\Debug\net6.0\ref\Geometry.dll
