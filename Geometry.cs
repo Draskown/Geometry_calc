@@ -6,7 +6,7 @@
             if (args.Length == 1){
                 return ComputeCircleArea(args[0]);
             } else if (args.Length == 3){
-                return ComputeCircleArea(args);
+                return ComputeTriangleArea(args);
             } else
 
             Console.WriteLine("Not implemented yet");
